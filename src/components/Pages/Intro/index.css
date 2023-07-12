@@ -1,0 +1,25 @@
+.intro-wrapper {
+  background-image: url("../../../assets/background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  color: white;
+  margin: auto;
+}
+
+.intro-header {
+  font-family: louis;
+  font-size: large;
+}
