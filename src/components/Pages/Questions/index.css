@@ -2,3 +2,18 @@
   height: 100vh;
   width: 100vw;
 }
+.questions-text {
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+.rev {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.rev.active {
+  transform: translateY(0);
+  opacity: 1;
+}
