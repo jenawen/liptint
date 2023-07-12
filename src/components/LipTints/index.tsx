@@ -73,7 +73,7 @@ const liptints = [
   },
   {
     name: "peripera ink velvet tint",
-    shade: "FILL IN",
+    shade: "30 classic nude",
     coverage: "high",
     finish: "matte",
     undertone: "neutral",
