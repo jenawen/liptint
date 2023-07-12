@@ -16,10 +16,12 @@
   align-items: center;
   align-content: stretch;
   color: white;
-  margin: auto;
+  /* margin: auto; */
+  /* margin-top: 20%; */
 }
 
 .intro-header {
+  margin-top: 22%;
   font-family: louis;
-  font-size: large;
+  font-size: xx-large;
 }
