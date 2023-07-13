@@ -14,6 +14,6 @@
   transition: 2s all ease;
 }
 .rev.active {
-  transform: translateY(0);
+  transform: translateY(20vh);
   opacity: 1;
 }

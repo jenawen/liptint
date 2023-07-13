@@ -3,9 +3,9 @@ const Questions = () => {
   const rev = () => {
     const reveal = document.querySelectorAll(".rev");
     for (let i = 0; i < reveal.length; i++) {
-      const windowHeight = window.innerHeight;
+      const windowHeight = window.innerHeight  ;
       const elementTop = reveal[i].getBoundingClientRect().top;
-      const elementVisible = 150;
+      const elementVisible = 100;
       if (elementTop < windowHeight - elementVisible) {
         reveal[i].classList.add("active");
       } else {
@@ -16,8 +16,8 @@ const Questions = () => {
 
   window.addEventListener("scroll", rev);
   return (
-    <div className="questions-container rev fade-bottom">
-      <div className="questions-text">
+    <div className="questions-container ">
+      <div className="questions-text rev fade-bottom">
         <p>In order to pick your perfect lip tint,</p>
         <p>you need to answer a few questions.</p>
       </div>
