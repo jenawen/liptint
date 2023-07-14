@@ -2,7 +2,7 @@ import "./index.css";
 import { useEffect, useState } from "react";
 
 const Intro = (props: any) => {
-  const { setCurrent } = props;
+  const { setShowQuestions } = props;
 
   return (
     <div className="intro-wrapper">
@@ -11,7 +11,7 @@ const Intro = (props: any) => {
         <div>Let me help you pick your lip color!</div>
         <div
           onClick={() => {
-            setCurrent(2);
+            setShowQuestions(true);
           }}
         >
           Let's go!

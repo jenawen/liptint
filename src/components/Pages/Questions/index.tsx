@@ -1,5 +1,10 @@
 import "./index.css";
+import { useState } from "react";
+
+import One from "./One";
+
 const Questions = () => {
+  const [showQ1, setShowQ1] = useState(false);
   const rev = () => {
     const reveal = document.querySelectorAll(".rev");
     for (let i = 0; i < reveal.length; i++) {
@@ -32,28 +37,34 @@ const Questions = () => {
 
   window.addEventListener("scroll", rev);
   return (
-    <div className="questions-container ">
-      <div className="questions-text-1 rev fade-bottom">
-        <p>In order to pick your perfect lip tint,</p>
-        <p>you need to answer a few questions.</p>
-      </div>
-      <div className="questions-text-2 rev fade-bottom">
-        <p>You'll be asked about </p>
-        <p>
-          <li> finish, </li>
-        </p>
-        <p>
-          <li> coverage, </li>
-        </p>
-        <p>
-          <li> and your skin's undertone. </li>
-        </p>
-      </div>
-      <div className="questions-text-3 rev fade-bottom">
-        <p>Now let's pick a perfect lip tint for you!</p>
-        <p>Take me to question 1!</p>
-      </div>
-    </div>
+    <>
+      {showQ1 ? (
+        <One />
+      ) : (
+        <div className="questions-container ">
+          <div className="questions-text-1 rev fade-bottom">
+            <p>In order to pick your perfect lip tint,</p>
+            <p>you need to answer a few questions.</p>
+          </div>
+          <div className="questions-text-2 rev fade-bottom">
+            <p>You'll be asked about </p>
+            <p>
+              <li> finish, </li>
+            </p>
+            <p>
+              <li> coverage, </li>
+            </p>
+            <p>
+              <li> and your skin's undertone. </li>
+            </p>
+          </div>
+          <div className="questions-text-3 rev fade-bottom">
+            <p>Now let's pick a perfect lip tint for you!</p>
+            <p onClick={() => setShowQ1(true)}>Take me to question 1!</p>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 

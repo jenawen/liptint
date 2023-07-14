@@ -1,42 +1,42 @@
 import { useState } from "react";
 import "../index.css";
-import Two from "../Two";
+import Three from "../Three";
 
-const One = (props: any) => {
-  const [showQ2, setShowQ2] = useState(false);
+const Two = () => {
+  const [showQ3, setShowQ3] = useState(false);
 
   return (
     <>
-      {showQ2 ? (
-        <Two />
+      {showQ3 ? (
+        <Three />
       ) : (
         <div className="q">
           <div className="q-header">
-            What kind of finish do you want to wear?
+            What kind of coverage are you looking for?
           </div>
           <div
             className="q-choice"
             onClick={() => {
-              setShowQ2(true);
+              setShowQ3(true);
             }}
           >
-            Glossy
+            Full coverage
           </div>
           <div
             className="q-choice"
             onClick={() => {
-              setShowQ2(true);
+              setShowQ3(true);
             }}
           >
-            Matte
+            Medium coverage
           </div>
           <div
             className="q-choice"
             onClick={() => {
-              setShowQ2(true);
+              setShowQ3(true);
             }}
           >
-            Satin
+            Sheer coverage
           </div>
         </div>
       )}
@@ -44,4 +44,4 @@ const One = (props: any) => {
   );
 };
 
-export default One;
+export default Two;

@@ -9,10 +9,10 @@
   align-content: stretch;
 }
 .questions-text-2 {
-  margin-top: 8%;
+  margin-top: 5%;
 }
 .questions-text-3 {
-  margin-top: 23%;
+  margin-top: 20%;
 }
 
 .rev {
@@ -24,4 +24,15 @@
 .rev.active {
   transform: translateY(20vh);
   opacity: 1;
+}
+
+.q {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
 }
