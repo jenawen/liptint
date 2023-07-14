@@ -2,6 +2,7 @@ import Header from "../Header";
 import Intro from "../Pages/Intro";
 import Questions from "../Pages/Questions";
 import { useEffect, useState } from "react";
+import "../../fonts/figtree.ttf";
 
 const Wrapper = () => {
   // const [current, setCurrent] = useState(1);

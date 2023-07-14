@@ -68,3 +68,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+@font-face {
+  font-family: "figtree"; /*Can be any text*/
+  src: local("figtree"), url("./fonts/figtree.ttf") format("truetype");
+}
+@font-face {
+  font-family: "louis"; /*Can be any text*/
+  src: local("louis-george-cafe"),
+    url("./fonts/louis-george-cafe.ttf") format("truetype");
+  font-weight: normal;
+}

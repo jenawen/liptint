@@ -1,9 +1,14 @@
 import { useState } from "react";
 import "../index.css";
 import Two from "../Two";
+import liptints from "../../../LipTints";
 
 const One = (props: any) => {
   const [showQ2, setShowQ2] = useState(false);
+
+  const finishFiltered = (finish: string) => {
+    console.log(finish);
+  };
 
   return (
     <>
@@ -18,6 +23,7 @@ const One = (props: any) => {
             className="q-choice"
             onClick={() => {
               setShowQ2(true);
+              finishFiltered("glossy");
             }}
           >
             Glossy
@@ -26,6 +32,7 @@ const One = (props: any) => {
             className="q-choice"
             onClick={() => {
               setShowQ2(true);
+              finishFiltered("matte");
             }}
           >
             Matte
@@ -34,6 +41,7 @@ const One = (props: any) => {
             className="q-choice"
             onClick={() => {
               setShowQ2(true);
+              finishFiltered("satin");
             }}
           >
             Satin

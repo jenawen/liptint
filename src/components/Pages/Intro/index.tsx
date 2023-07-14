@@ -1,5 +1,6 @@
 import "./index.css";
-import { useEffect, useState } from "react";
+import "../../../fonts/figtree.ttf";
+import "../../../fonts/louis-george-cafe.ttf";
 
 const Intro = (props: any) => {
   const { setShowQuestions } = props;
@@ -13,8 +14,9 @@ const Intro = (props: any) => {
           onClick={() => {
             setShowQuestions(true);
           }}
+          className="lets-go"
         >
-          Let's go!
+          Let's go! →
         </div>
       </div>
     </div>

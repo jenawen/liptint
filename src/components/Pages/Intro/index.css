@@ -18,10 +18,16 @@
   color: white;
   /* margin: auto; */
   /* margin-top: 20%; */
+  font-family: louis;
+  font-size: large;
 }
 
 .intro-header {
   margin-top: 22%;
   font-family: louis;
   font-size: xx-large;
+}
+
+.lets-go:hover {
+  text-decoration: underline;
 }

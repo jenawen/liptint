@@ -19,8 +19,3 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-@font-face {
-  font-family: "louis"; /*Can be any text*/
-  src: local("louis-george-cafe"),
-    url("./fonts/louis-george-cafe.ttf") format("truetype");
-}

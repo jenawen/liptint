@@ -1,5 +1,6 @@
 import "./index.css";
 import { useState } from "react";
+import "../../../fonts/louis-george-cafe.ttf";
 
 import One from "./One";
 
@@ -43,11 +44,11 @@ const Questions = () => {
       ) : (
         <div className="questions-container ">
           <div className="questions-text-1 rev fade-bottom">
-            <p>In order to pick your perfect lip tint,</p>
-            <p>you need to answer a few questions.</p>
+            <p>To pick your perfect lip tint,</p>
+            <p>we need to know a few things.</p>
           </div>
           <div className="questions-text-2 rev fade-bottom">
-            <p>You'll be asked about </p>
+            <p>You'll be asked about what kind of</p>
             <p>
               <li> finish, </li>
             </p>
@@ -55,12 +56,15 @@ const Questions = () => {
               <li> coverage, </li>
             </p>
             <p>
-              <li> and your skin's undertone. </li>
+              <li> and undertone </li>
             </p>
+            <p>you want for your lip tint.</p>
           </div>
           <div className="questions-text-3 rev fade-bottom">
-            <p>Now let's pick a perfect lip tint for you!</p>
-            <p onClick={() => setShowQ1(true)}>Take me to question 1!</p>
+            <p>Sounds simple enough, right?</p>
+            <p className="q1-link" onClick={() => setShowQ1(true)}>
+              So let's pick a perfect lip tint for you!
+            </p>
           </div>
         </div>
       )}

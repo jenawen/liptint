@@ -1,5 +1,5 @@
 .questions-container {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -7,12 +7,17 @@
   justify-content: space-evenly;
   align-items: stretch;
   align-content: stretch;
+  font-family: figtree;
+  font-size: large;
 }
 .questions-text-2 {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 .questions-text-3 {
-  margin-top: 20%;
+  margin-top: 18%;
+}
+.q1-link {
+  text-decoration: underline;
 }
 
 .rev {
