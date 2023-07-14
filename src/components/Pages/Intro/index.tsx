@@ -8,7 +8,7 @@ const Intro = (props: any) => {
   return (
     <div className="intro-wrapper">
       <div className="intro-text">
-        <div className="intro-header">What are we wearing today ?</div>
+        <div className="intro-header">What's the vibe for today ?</div>
         <div>Let me help you pick your lip color!</div>
         <div
           onClick={() => {

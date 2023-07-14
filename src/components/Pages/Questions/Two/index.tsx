@@ -2,8 +2,11 @@ import { useState } from "react";
 import "../index.css";
 import Three from "../Three";
 
-const Two = () => {
+const Two = (props: any) => {
+  const { newLTList } = props;
   const [showQ3, setShowQ3] = useState(false);
+
+  const filterCoverage = (coverage: string) => {};
 
   return (
     <>

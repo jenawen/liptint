@@ -5,15 +5,19 @@ import liptints from "../../../LipTints";
 
 const One = (props: any) => {
   const [showQ2, setShowQ2] = useState(false);
+  const [newLTList, setNewLTList] = useState([]);
 
   const finishFiltered = (finish: string) => {
-    console.log(finish);
+    const liptintscopy = liptints.slice();
+    const temp: any = liptintscopy.filter((e) => e.finish === finish);
+    setNewLTList(temp);
+    setShowQ2(true);
   };
 
   return (
     <>
       {showQ2 ? (
-        <Two />
+        <Two liptint={newLTList} />
       ) : (
         <div className="q">
           <div className="q-header">
@@ -22,7 +26,6 @@ const One = (props: any) => {
           <div
             className="q-choice"
             onClick={() => {
-              setShowQ2(true);
               finishFiltered("glossy");
             }}
           >
@@ -31,7 +34,6 @@ const One = (props: any) => {
           <div
             className="q-choice"
             onClick={() => {
-              setShowQ2(true);
               finishFiltered("matte");
             }}
           >
@@ -40,7 +42,6 @@ const One = (props: any) => {
           <div
             className="q-choice"
             onClick={() => {
-              setShowQ2(true);
               finishFiltered("satin");
             }}
           >
