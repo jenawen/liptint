@@ -1,4 +1,4 @@
-const liptints = [
+export const liptints = [
   //glossy finish
   {
     name: "peripera ink mood glowy tint",
@@ -150,3 +150,5 @@ const liptints = [
     undertone: "cool",
   },
 ];
+
+export default liptints;

@@ -5,5 +5,5 @@
   justify-content: flex-start;
   align-items: stretch;
   align-content: stretch;
-  overflow-x: hidden;
+  overflow: hidden;
 }

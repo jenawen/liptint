@@ -19,6 +19,10 @@ const Wrapper = () => {
     }
   }, [current]);
 
+  useEffect(() => {
+    window.history.scrollRestoration = "manual";
+  }, []);
+
   return (
     <div className="page-container">
       <div id="slide-1">
