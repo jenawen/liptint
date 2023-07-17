@@ -126,6 +126,7 @@ export const liptints = [
     shade: "07 cranberry plum",
     coverage: "high",
     finish: "matte",
+    texture: "feathery",
     undertone: "cool",
   },
   {
@@ -133,6 +134,8 @@ export const liptints = [
     shade: "05 midnight mauve",
     coverage: "high",
     finish: "matte",
+    texture: "feathery",
+
     undertone: "neutral",
   },
   {
@@ -140,6 +143,8 @@ export const liptints = [
     shade: "06 soft walnut",
     coverage: "high",
     finish: "matte",
+    texture: "feathery",
+
     undertone: "warm",
   },
   //balm types
@@ -148,7 +153,7 @@ export const liptints = [
     shade: "05 nougat sand",
     coverage: "light",
     finish: "glossy",
-    texture: "fudgy",
+    texture: "balmy",
     undertone: "warm",
   },
   {
@@ -156,6 +161,7 @@ export const liptints = [
     shade: "06 kaya fig",
     coverage: "light",
     finish: "glossy",
+    texture: "balmy",
     undertone: "neutral",
   },
   {
@@ -163,6 +169,7 @@ export const liptints = [
     shade: "07 mauve whip",
     coverage: "light",
     finish: "glossy",
+    texture: "balmy",
     undertone: "cool",
   },
 ];

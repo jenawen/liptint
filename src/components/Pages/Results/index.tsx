@@ -6,7 +6,11 @@ const Results = (props: any) => {
   return (
     <div className="results">
       <div className="picture"></div>
-      <div className="text">Your result is: {newLTList.map((e) => e.name)}</div>
+      <div className="text">
+        Your result is:&nbsp;
+        {newLTList.map((e) => e.name)}
+        &nbsp;in the shade {newLTList.map((e) => e.shade)}
+      </div>
     </div>
   );
 };
