@@ -5,6 +5,7 @@ export const liptints = [
     shade: "11 brown heaven",
     coverage: "medium",
     finish: "glossy",
+    texture: "moist",
     undertone: "warm",
   },
   {
@@ -12,6 +13,7 @@ export const liptints = [
     shade: "03 rose in mind",
     coverage: "medium",
     finish: "glossy",
+    texture: "moist",
     undertone: "neutral",
   },
   {
@@ -19,48 +21,55 @@ export const liptints = [
     shade: "10 captivating pink",
     coverage: "medium",
     finish: "glossy",
+    texture: "moist",
     undertone: "cool",
   },
   {
     name: "romand dewyful tint",
     shade: "13 custard mauve",
-    coverage: "medium",
+    coverage: "light",
     finish: "glossy",
+    texture: "dewy",
     undertone: "cool",
   },
   {
     name: "romand dewyful tint",
     shade: "03 if rose",
-    coverage: "medium",
+    coverage: "light",
     finish: "glossy",
+    texture: "dewy",
     undertone: "neutral",
   },
   {
     name: "romand dewyful tint",
     shade: "12 canyon",
-    coverage: "medium",
+    coverage: "light",
     finish: "glossy",
+    texture: "dewy",
     undertone: "warm",
   },
   {
     name: "etude glow fixing tint",
     shade: "02 mellow pink",
-    coverage: "medium",
+    coverage: "high",
     finish: "glossy",
+    texture: "sticky",
     undertone: "cool",
   },
   {
     name: "etude glow fixing tint",
     shade: "05 mauvement",
-    coverage: "medium",
+    coverage: "high",
     finish: "glossy",
+    texture: "sticky",
     undertone: "neutral",
   },
   {
     name: "etude glow fixing tint",
     shade: "03 dewy fig",
-    coverage: "medium",
+    coverage: "high",
     finish: "glossy",
+    texture: "sticky",
     undertone: "warm",
   },
   //liquid tint
@@ -69,6 +78,7 @@ export const liptints = [
     shade: "40 calm rosy",
     coverage: "high",
     finish: "matte",
+    texture: "velvet",
     undertone: "cool",
   },
   {
@@ -76,6 +86,7 @@ export const liptints = [
     shade: "30 classic nude",
     coverage: "high",
     finish: "matte",
+    texture: "velvet",
     undertone: "neutral",
   },
   {
@@ -83,6 +94,7 @@ export const liptints = [
     shade: "25 cinnamon nude",
     coverage: "high",
     finish: "matte",
+    texture: "velvet",
     undertone: "warm",
   },
   {
@@ -90,6 +102,7 @@ export const liptints = [
     shade: "01 pomeloco",
     coverage: "medium",
     finish: "matte",
+    texture: "fudgy",
     undertone: "warm",
   },
   {
@@ -97,6 +110,7 @@ export const liptints = [
     shade: "02 rosiental",
     coverage: "medium",
     finish: "matte",
+    texture: "fudgy",
     undertone: "neutral",
   },
   {
@@ -104,6 +118,7 @@ export const liptints = [
     shade: "07 cool rose up",
     coverage: "medium",
     finish: "matte",
+    texture: "fudgy",
     undertone: "cool",
   },
   {
@@ -133,6 +148,7 @@ export const liptints = [
     shade: "05 nougat sand",
     coverage: "light",
     finish: "glossy",
+    texture: "fudgy",
     undertone: "warm",
   },
   {

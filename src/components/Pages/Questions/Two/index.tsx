@@ -1,17 +1,26 @@
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
 import { useState } from "react";
 import "../index.css";
 import Three from "../Three";
 
 const Two = (props: any) => {
-  const { newLTList } = props;
+  const { newLTList, setNewLTList } = props;
   const [showQ3, setShowQ3] = useState(false);
 
-  const filterCoverage = (coverage: string) => {};
+  const filterCoverage = (coverage: string) => {
+    if (newLTList) {
+      const temp: any = newLTList.filter((e: any) => e.coverage === coverage);
+      setNewLTList(temp);
+      setShowQ3(true);
+    }
+  };
 
   return (
     <>
       {showQ3 ? (
-        <Three />
+        <Three newLTList={newLTList} setNewLTList={setNewLTList} />
       ) : (
         <div className="q">
           <div className="q-header">
@@ -20,7 +29,7 @@ const Two = (props: any) => {
           <div
             className="q-choice"
             onClick={() => {
-              setShowQ3(true);
+              filterCoverage("high");
             }}
           >
             Full coverage
@@ -28,7 +37,7 @@ const Two = (props: any) => {
           <div
             className="q-choice"
             onClick={() => {
-              setShowQ3(true);
+              filterCoverage("medium");
             }}
           >
             Medium coverage
@@ -36,7 +45,7 @@ const Two = (props: any) => {
           <div
             className="q-choice"
             onClick={() => {
-              setShowQ3(true);
+              filterCoverage("light");
             }}
           >
             Sheer coverage

@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-unsafe-argument */
 import { useState } from "react";
 import "../index.css";
 import Two from "../Two";
 import liptints from "../../../LipTints";
 
-const One = (props: any) => {
+const One = () => {
   const [showQ2, setShowQ2] = useState(false);
   const [newLTList, setNewLTList] = useState([]);
 
@@ -14,10 +15,12 @@ const One = (props: any) => {
     setShowQ2(true);
   };
 
+  //   console.log(newLTList);
+
   return (
     <>
       {showQ2 ? (
-        <Two liptint={newLTList} />
+        <Two newLTList={newLTList} setNewLTList={setNewLTList} />
       ) : (
         <div className="q">
           <div className="q-header">
