@@ -58,7 +58,7 @@
   font-family: louis;
 }
 
-.q-choice {
+.q-choice-false {
   width: 50%;
   height: 10%;
   border: 1px solid gray;
@@ -73,4 +73,21 @@
   align-content: stretch;
   font-size: large;
   font-family: louis;
+}
+.q-choice-true {
+  width: 50%;
+  height: 10%;
+  border: 1px solid gray;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  font-size: large;
+  font-family: louis;
+  background-color: pink;
 }

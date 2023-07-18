@@ -7,6 +7,10 @@ import liptints from "../../../LipTints";
 const One = () => {
   const [showQ2, setShowQ2] = useState(false);
   const [newLTList, setNewLTList] = useState([]);
+  const [finish, setFinish] = useState("");
+  const [c1, setC1] = useState(false);
+  const [c2, setC2] = useState(false);
+  const [c3, setC3] = useState(false);
 
   const finishFiltered = (finish: string) => {
     const liptintscopy = liptints.slice();
@@ -27,29 +31,41 @@ const One = () => {
             What kind of finish do you want to wear?
           </div>
           <div
-            className="q-choice"
+            className={`q-choice-${c1}`}
             onClick={() => {
-              finishFiltered("glossy");
+              setFinish("glossy");
+              setC1(true);
             }}
           >
             Glossy
           </div>
           <div
-            className="q-choice"
+            className={`q-choice-${c2}`}
             onClick={() => {
-              finishFiltered("matte");
+              setFinish("matte");
+              setC2(true);
             }}
           >
             Matte
           </div>
           <div
-            className="q-choice"
+            className={`q-choice-${c3}`}
             onClick={() => {
-              finishFiltered("satin");
+              setFinish("satin");
+              setC3(true);
             }}
           >
             Satin
           </div>
+          <button
+            onClick={() => {
+              if (finish) {
+                finishFiltered(finish);
+              }
+            }}
+          >
+            Submit
+          </button>
         </div>
       )}
     </>

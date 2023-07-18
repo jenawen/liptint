@@ -144,7 +144,6 @@ export const liptints = [
     coverage: "high",
     finish: "matte",
     texture: "feathery",
-
     undertone: "warm",
   },
   //balm types

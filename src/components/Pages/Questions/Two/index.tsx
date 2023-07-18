@@ -8,6 +8,10 @@ import Three from "../Three";
 const Two = (props: any) => {
   const { newLTList, setNewLTList } = props;
   const [showQ3, setShowQ3] = useState(false);
+  const [coverage, setCoverage] = useState("");
+  const [c1, setC1] = useState(false);
+  const [c2, setC2] = useState(false);
+  const [c3, setC3] = useState(false);
 
   const filterCoverage = (coverage: string) => {
     if (newLTList) {
@@ -27,29 +31,41 @@ const Two = (props: any) => {
             What kind of coverage are you looking for?
           </div>
           <div
-            className="q-choice"
+            className={`q-choice-${c1}`}
             onClick={() => {
-              filterCoverage("high");
+              setCoverage("high");
+              setC1(true);
             }}
           >
             Full coverage
           </div>
           <div
-            className="q-choice"
+            className={`q-choice-${c2}`}
             onClick={() => {
-              filterCoverage("medium");
+              setCoverage("medium");
+              setC2(true);
             }}
           >
             Medium coverage
           </div>
           <div
-            className="q-choice"
+            className={`q-choice-${c3}`}
             onClick={() => {
-              filterCoverage("light");
+              setCoverage("light");
+              setC3(true);
             }}
           >
             Sheer coverage
           </div>
+          <button
+            onClick={() => {
+              if (coverage) {
+                filterCoverage(coverage);
+              }
+            }}
+          >
+            Submit
+          </button>
         </div>
       )}
     </>
