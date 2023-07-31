@@ -1,0 +1,170 @@
+{
+  "title": "Daily Lip Tint Picker",
+  "subtitle": "Let's pick a lip tint for the day.",
+  "content": [
+    {
+      "id": 0,
+      "text": "What kind of finish do you want to wear?",
+      "questions": [
+        { "text": "Glossy" },
+        { "text": "Matte" },
+        { "text": "Satin" }
+      ]
+    },
+    {
+      "id": 1,
+      "text": "What kind of coverage are you looking for?",
+      "questions": [
+        { "text": "High Coverage" },
+        { "text": "Medium Coverage" },
+        { "text": "Light Coverage" }
+      ]
+    },
+    {
+      "id": 1,
+      "text": "What kind of undertone do you have?",
+      "questions": [
+        { "text": "Warm" },
+        { "text": "Neutral" },
+        { "text": "Cool" }
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "combination": ["Glossy", "High Coverage", "Warm"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Glossy", "High Coverage", "Neutral"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Glossy", "High Coverage", "Cool"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Glossy", "Medium Coverage", "Warm"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Glossy", "Medium Coverage", "Neutral"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Glossy", "Medium Coverage", "Cool"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Glossy", "Light Coverage", "Warm"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Glossy", "Light Coverage", "Neutral"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Glossy", "Light Coverage", "Cool"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Matte", "High Coverage", "Warm"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Matte", "High Coverage", "Neutral"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Matte", "High Coverage", "Cool"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Matte", "Medium Coverage", "Warm"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Matte", "Medium Coverage", "Neutral"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Matte", "Medium Coverage", "Cool"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Matte", "Light Coverage", "Warm"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Matte", "Light Coverage", "Neutral"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Matte", "Light Coverage", "Cool"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Satin", "High Coverage", "Warm"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Satin", "High Coverage", "Neutral"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Satin", "High Coverage", "Cool"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Satin", "Medium Coverage", "Warm"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Satin", "Medium Coverage", "Neutral"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Satin", "Medium Coverage", "Cool"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Satin", "Light Coverage", "Warm"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Satin", "Light Coverage", "Neutral"],
+      "text": "result here",
+      "image": "image here "
+    },
+    {
+      "combination": ["Satin", "Light Coverage", "Cool"],
+      "text": "result here",
+      "image": "image here "
+    }
+  ]
+}
