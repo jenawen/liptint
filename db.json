@@ -1,170 +1,172 @@
 {
-  "title": "Daily Lip Tint Picker",
-  "subtitle": "Let's pick a lip tint for the day.",
-  "content": [
-    {
-      "id": 0,
-      "text": "What kind of finish do you want to wear?",
-      "questions": [
-        { "text": "Glossy" },
-        { "text": "Matte" },
-        { "text": "Satin" }
-      ]
-    },
-    {
-      "id": 1,
-      "text": "What kind of coverage are you looking for?",
-      "questions": [
-        { "text": "High Coverage" },
-        { "text": "Medium Coverage" },
-        { "text": "Light Coverage" }
-      ]
-    },
-    {
-      "id": 1,
-      "text": "What kind of undertone do you have?",
-      "questions": [
-        { "text": "Warm" },
-        { "text": "Neutral" },
-        { "text": "Cool" }
-      ]
-    }
-  ],
-  "answers": [
-    {
-      "combination": ["Glossy", "High Coverage", "Warm"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Glossy", "High Coverage", "Neutral"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Glossy", "High Coverage", "Cool"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Glossy", "Medium Coverage", "Warm"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Glossy", "Medium Coverage", "Neutral"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Glossy", "Medium Coverage", "Cool"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Glossy", "Light Coverage", "Warm"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Glossy", "Light Coverage", "Neutral"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Glossy", "Light Coverage", "Cool"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Matte", "High Coverage", "Warm"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Matte", "High Coverage", "Neutral"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Matte", "High Coverage", "Cool"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Matte", "Medium Coverage", "Warm"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Matte", "Medium Coverage", "Neutral"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Matte", "Medium Coverage", "Cool"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Matte", "Light Coverage", "Warm"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Matte", "Light Coverage", "Neutral"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Matte", "Light Coverage", "Cool"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Satin", "High Coverage", "Warm"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Satin", "High Coverage", "Neutral"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Satin", "High Coverage", "Cool"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Satin", "Medium Coverage", "Warm"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Satin", "Medium Coverage", "Neutral"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Satin", "Medium Coverage", "Cool"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Satin", "Light Coverage", "Warm"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Satin", "Light Coverage", "Neutral"],
-      "text": "result here",
-      "image": "image here "
-    },
-    {
-      "combination": ["Satin", "Light Coverage", "Cool"],
-      "text": "result here",
-      "image": "image here "
-    }
-  ]
+  "quiz": {
+    "title": "Daily Lip Tint Picker",
+    "subtitle": "Let's pick a lip tint for the day.",
+    "content": [
+      {
+        "id": 0,
+        "text": "What kind of finish do you want to wear?",
+        "questions": [
+          { "text": "Glossy" },
+          { "text": "Matte" },
+          { "text": "Satin" }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "What kind of coverage are you looking for?",
+        "questions": [
+          { "text": "High Coverage" },
+          { "text": "Medium Coverage" },
+          { "text": "Light Coverage" }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What kind of undertone do you have?",
+        "questions": [
+          { "text": "Warm" },
+          { "text": "Neutral" },
+          { "text": "Cool" }
+        ]
+      }
+    ],
+    "answers": [
+      {
+        "combination": ["Glossy", "High Coverage", "Warm"],
+        "text": "Etude Glow Fixing Tint in 03 Dewy Fig",
+        "image": "https://m.media-amazon.com/images/I/51gwq6MnKcL._SX425_.jpg"
+      },
+      {
+        "combination": ["Glossy", "High Coverage", "Neutral"],
+        "text": "Etude Glow Fixing Tint in 05 Mauvement",
+        "image": "https://m.media-amazon.com/images/I/51vNrE8-TgL._SX425_.jpg"
+      },
+      {
+        "combination": ["Glossy", "High Coverage", "Cool"],
+        "text": "Etude Glow Fixing Tint in 02 Mellow Pink",
+        "image": "https://m.media-amazon.com/images/I/51veclCJ3ML._SX425_.jpg"
+      },
+      {
+        "combination": ["Glossy", "Medium Coverage", "Warm"],
+        "text": "Peripera Ink Mood Glowy Tint in 11 Brown Heaven",
+        "image": "https://lacasadetommy.com/cdn/shop/products/peripera_ink_mood_glowy_tint_l_1671516554_8425f59e_progressive.jpg?v=1675709824&width=493"
+      },
+      {
+        "combination": ["Glossy", "Medium Coverage", "Neutral"],
+        "text": "Peripera Ink Mood Glowy Tint in 03 Rose in Mind",
+        "image": "https://images-static.nykaa.com/media/catalog/product/9/9/9951aebPERIP00000019_8.jpg?tr=w-500,pr-true "
+      },
+      {
+        "combination": ["Glossy", "Medium Coverage", "Cool"],
+        "text": "Peripera Ink Mood Glowy Tint in 10 Captivating Pink",
+        "image": "https://markhambeauty.ca/cdn/shop/products/periperainkmoodglowytint-captivatingpink.jpg?v=1679607268&width=1445"
+      },
+      {
+        "combination": ["Glossy", "Light Coverage", "Warm"],
+        "text": "Romand Dewyful Tint in 12 Canyon",
+        "image": "https://m.media-amazon.com/images/I/613Cz+mwjVL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "combination": ["Glossy", "Light Coverage", "Neutral"],
+        "text": "Romand Dewyful Tint in 03 If Rose",
+        "image": "https://m.media-amazon.com/images/I/61KJcLjB73L._SY450_.jpg"
+      },
+      {
+        "combination": ["Glossy", "Light Coverage", "Cool"],
+        "text": "Romand Dewyful Tint in 13 Custard Mauve",
+        "image": "https://m.media-amazon.com/images/I/61fInY-JlAL._SY450_.jpg "
+      },
+      {
+        "combination": ["Matte", "High Coverage", "Warm"],
+        "text": "Peripera Ink Velvet Tint in 25 Cinnamon Nude",
+        "image": "https://shopkleanskin.com/cdn/shop/products/image_1024_1.jpg?v=1666645516&width=600"
+      },
+      {
+        "combination": ["Matte", "High Coverage", "Neutral"],
+        "text": "Peripera Ink Velvet Tint in 26 Well-Made Nude",
+        "image": "https://shopkleanskin.com/cdn/shop/products/5c38f6a7933ac200c935f77215aecac2.jpg?v=1666645516&width=600"
+      },
+      {
+        "combination": ["Matte", "High Coverage", "Cool"],
+        "text": "Peripera Ink Velvet Tint in 27 Strawberry Nude",
+        "image": "https://shopkleanskin.com/cdn/shop/products/image_1024.jpg?v=1666645516&width=600"
+      },
+      {
+        "combination": ["Matte", "Medium Coverage", "Warm"],
+        "text": "Romand Blur Fudge Tint in 01 Pomeloco",
+        "image": "https://shopkleanskin.com/cdn/shop/products/pomeloco.jpg?v=1667359198&width=600"
+      },
+      {
+        "combination": ["Matte", "Medium Coverage", "Neutral"],
+        "text": "Romand Blur Fudge Tint in 02 Rosiental",
+        "image": "https://shopkleanskin.com/cdn/shop/products/rosien.jpg?v=1667359198&width=600 "
+      },
+      {
+        "combination": ["Matte", "Medium Coverage", "Cool"],
+        "text": "https://shopkleanskin.com/cdn/shop/products/cool_rose.jpg?v=1667359198&width=600",
+        "image": "image here "
+      },
+      {
+        "combination": ["Matte", "Light Coverage", "Warm"],
+        "text": "Etude Fixing Tint Bar in 03 Milk Caramel",
+        "image": "https://m.media-amazon.com/images/I/51zBWqr-hhL._SY450_.jpg"
+      },
+      {
+        "combination": ["Matte", "Light Coverage", "Neutral"],
+        "text": "Etude Fixing Tint Bar in 04 Coral Rose",
+        "image": "https://m.media-amazon.com/images/I/61PjPjuJXQL._SY450_.jpg"
+      },
+      {
+        "combination": ["Matte", "Light Coverage", "Cool"],
+        "text": "Etude Fixing Tint Bar in 05 Mauve Pink",
+        "image": "https://m.media-amazon.com/images/I/5172Yiw7-+L._SY450_.jpg"
+      },
+      {
+        "combination": ["Satin", "High Coverage", "Warm"],
+        "text": "Dasique Cream de Rose Tint in 04 Redwood",
+        "image": "https://th-test-11.slatic.net/p/e7eabbd93c9635af4d177bcdc817c524.jpg"
+      },
+      {
+        "combination": ["Satin", "High Coverage", "Neutral"],
+        "text": "Dasique Cream de Rose Tint in 03 Dreaming",
+        "image": "https://down-th.img.susercontent.com/file/th-11134207-23030-wcw1vt6x6qov4a"
+      },
+      {
+        "combination": ["Satin", "High Coverage", "Cool"],
+        "text": "Dasique Cream de Rose Tint in 06 Ruby Jam",
+        "image": "https://th-test-11.slatic.net/p/740a450b13922fe1d00a0814bdf3e99b.jpg"
+      },
+      {
+        "combination": ["Satin", "Medium Coverage", "Warm"],
+        "text": "Amuse Seoul Dew Velvet Tint in 06 Lively Rose",
+        "image": "https://m.media-amazon.com/images/I/616ScDOTULL._SX425_.jpg"
+      },
+      {
+        "combination": ["Satin", "Medium Coverage", "Neutral"],
+        "text": "Amuse Seoul Dew Velvet Tint in 10 Rose Boksoonga",
+        "image": "https://m.media-amazon.com/images/I/71LIAUbkZeL._SX425_.jpg"
+      },
+      {
+        "combination": ["Satin", "Medium Coverage", "Cool"],
+        "text": "Amuse Seoul Dew Velvet Tint in 08 Berry Velvet",
+        "image": "https://m.media-amazon.com/images/I/714iwwzcntL._SX425_.jpg"
+      },
+      {
+        "combination": ["Satin", "Light Coverage", "Warm"],
+        "text": "Holika Holika Foggy Blur Tint in 02 Muffle",
+        "image": "https://empresskorea.com/cdn/shop/products/2022-11-23174332.jpg?v=1679705538"
+      },
+      {
+        "combination": ["Satin", "Light Coverage", "Neutral"],
+        "text": "Holika Holika Foggy Blur Tint in 04 Hazy",
+        "image": "https://empresskorea.com/cdn/shop/products/2022-11-23174353.jpg?v=1679705538"
+      },
+      {
+        "combination": ["Satin", "Light Coverage", "Cool"],
+        "text": "Holika Holika Foggy Blur Tint in 05 Posy",
+        "image": "https://empresskorea.com/cdn/shop/products/2022-11-23174402.jpg?v=1679705538"
+      }
+    ]
+  }
 }
